@@ -16,6 +16,13 @@
 |0|[Setup](./notes/Chapter_0.md)|
 |1|[Introduction](./notes/Chapter_1.md)|
 
+## Assignments
+
+|Chapter #|Assignment|
+|---------|----------|
+|1|[pipeline](./code/notebooks/chapter1/section3.ipynb)|
+|1|[Bias](./code/notebooks/chapter1/section8.ipynb)|
+
 ## Best Practices
 
 - Installing Python packages in Jupyter Notebooks
