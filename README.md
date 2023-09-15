@@ -16,6 +16,7 @@
 |0|[Setup](./notes/Chapter_0.md)|
 |1|[Introduction](./notes/Chapter_1.md)|
 |2|[Using Transformers](./notes/Chapter_2.md)|
+|3|[Fine-tuning a Pretrained Model](./notes/Chapter_3.md)|
 
 ## Assignments
 
@@ -28,6 +29,8 @@
 |2|[Tokeniers (PyTorch)](./code/notebooks/chapter2/section4_pt.ipynb)|
 |2|[Handling multiple sequences (PyTorch)](./code/notebooks/chapter2/section5_pt.ipynb)|
 |2|[Putting it all together (PyTorch)](./code/notebooks/chapter2/section6_pt.ipynb)|
+|3|[Processing the data (PyTorch)](./code/notebooks/chapter3/section2_pt.ipynb)|
+|3|[Fine-tuning a model with the Trainer API](./code/notebooks/chapter3/section3.ipynb)|
 
 ## Best Practices
 
