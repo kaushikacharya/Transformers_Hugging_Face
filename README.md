@@ -7,7 +7,7 @@
 
 ## Jupyter Notebooks
 
-- Instructions to generate the notebooks locally provided in the [course](https://github.com/huggingface/course#-jupyter-notebooks) repository.
+- Instructions to generate the [notebooks](https://github.com/huggingface/notebooks/tree/main/course/en) locally provided in the [course](https://github.com/huggingface/course#-jupyter-notebooks) repository.
 
 ## Chapters
 
@@ -31,6 +31,7 @@
 |2|[Putting it all together (PyTorch)](./code/notebooks/chapter2/section6_pt.ipynb)|
 |3|[Processing the data (PyTorch)](./code/notebooks/chapter3/section2_pt.ipynb)|
 |3|[Fine-tuning a model with the Trainer API](./code/notebooks/chapter3/section3.ipynb)|
+|3|[Full training](./code/notebooks/chapter3/section4.ipynb)|
 
 ## Best Practices
 

@@ -3,6 +3,9 @@
 1. [Introduction](#introduction)
 2. [Processing the data](#processing-the-data)
 3. [Fine-tuning a model with the Trainer API](#fine-tuning-a-model-with-the-trainer-api)
+4. [A full training](#a-full-training)
+5. [Fine-tuning, Check!](#fine-tuning-check)
+6. End-of-chapter Quiz
 
 ## Introduction
 
@@ -65,3 +68,45 @@
 ### Notebook (Fine-tuning a model with the Trainer API)
 
 - [Notebook](../code/notebooks/chapter3/section3.ipynb)
+
+## A full training
+
+### Write your training loop in PyTorch
+
+- This would help in debugging.
+- Achieve the same results as we did in the last section without using the ```Trainer``` class.
+
+### Prepare for training
+
+- Postprocessing of tokenized_datasets (auotmatically done bby Trainer)
+  - Remove the columns unexpected by model.
+  - Rename the column ```label``` to ```labels```.
+  - Set the format of the datasetsso they return PyTorch tensors instead of lists.
+- Need for learning rate decay scheduler for Adam optimizer
+  - [Stackoverflow thread](https://stackoverflow.com/questions/39517431/should-we-do-learning-rate-decay-for-adam-optimizer)
+  - [Stackexchange thread](https://stats.stackexchange.com/questions/200063/adam-optimizer-with-exponential-decay)
+- [Decoupled Weight Decay Regularization](https://arxiv.org/abs/1711.05101) by  Ilya Loshchilov and Frank Hutter.
+  - AdamW's algorithm
+
+### The training loop
+
+### The evaluation loop
+
+### Supercharge your training loop with Accelerate
+
+- [Accelerate examples](https://github.com/huggingface/accelerate/tree/main/examples)
+
+### Notebook (A full training)
+
+- [notebook](../code/notebooks/chapter3/section4.ipynb)
+
+## Fine-tuning, Check!
+
+- Chapter recap:
+  - [Datasets Hub](https://huggingface.co/datasets)
+  - Learned how to load and preprocess datasets, including using dynamic padding and collators.
+  - Implemented your own fine-tuning and evaluation of a model.
+  - Implemented a lower-level training loop.
+  - Used Accelerate to easily adapt training loop so that it works for multiple GPUs and TPUs.
+
+## End-of-chapter Quiz
