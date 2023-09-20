@@ -17,6 +17,7 @@
 |1|[Introduction](./notes/Chapter_1.md)|
 |2|[Using Transformers](./notes/Chapter_2.md)|
 |3|[Fine-tuning a Pretrained Model](./notes/Chapter_3.md)|
+|4|[Sharing Models and Tokenizers](./notes/Chapter_4.md)|
 
 ## Assignments
 
@@ -32,6 +33,8 @@
 |3|[Processing the data (PyTorch)](./code/notebooks/chapter3/section2_pt.ipynb)|
 |3|[Fine-tuning a model with the Trainer API](./code/notebooks/chapter3/section3.ipynb)|
 |3|[Full training](./code/notebooks/chapter3/section4.ipynb)|
+|4|[Using pretrained models](./code/notebooks/chapter4/section2_pt.ipynb)|
+|4|[Sharing pretrained models](./code/notebooks/chapter4/section3_pt.ipynb)|
 
 ## Best Practices
 
